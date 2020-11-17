@@ -74,7 +74,7 @@ define(function (require, exports, module) {
 
 
     // First, register a command - a UI-less object associating an id to a handler
-    var MY_COMMAND_ID = "clean.ally"; // package-style naming to avoid collisions
+    var MY_COMMAND_ID = "clean.ally.kade"; // package-style naming to avoid collisions
     CommandManager.register("Clean Ally Kade", MY_COMMAND_ID, cleanAllyKade);
 
     // Then create a menu item bound to the command
